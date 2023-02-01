@@ -17,7 +17,7 @@ body {
 
 ::selection {
     color: #fff;
-    background: #4D59FB;
+    background: rgb(236, 99, 122);
 }
 
 .wrapper {
@@ -51,7 +51,7 @@ body {
 
 .search input:focus {
     padding: 0 41px;
-    border: 2px solid #4D59FB;
+    border: 2px solid rgb(195, 80, 197);
 }
 
 .search input::placeholder {
@@ -72,7 +72,7 @@ body {
 }
 
 .search input:focus~i {
-    color: #4D59FB;
+    color: rgb(195, 80, 197);
 }
 
 .search span {
@@ -157,7 +157,7 @@ ul .content::-webkit-scrollbar {
 .content li .details {
     padding-left: 10px;
     border-radius: 4px 0 0 4px;
-    border-left: 3px solid #4D59FB;
+    border-left: 3px solid rgb(195, 80, 197);
 }
 
 .content li p {
